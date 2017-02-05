@@ -14,6 +14,27 @@
 		2034CCB31E46870900624588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCB11E46870900624588 /* LaunchScreen.storyboard */; };
 		2034CCBE1E46870900624588 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034CCBD1E46870900624588 /* RetroCalculatorTests.swift */; };
 		2034CCC91E46870900624588 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034CCC81E46870900624588 /* RetroCalculatorUITests.swift */; };
+		2034CCE91E4687A400624588 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCD61E4687A400624588 /* 0.png */; };
+		2034CCEA1E4687A400624588 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCD71E4687A400624588 /* 1.png */; };
+		2034CCEB1E4687A400624588 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCD81E4687A400624588 /* 2.png */; };
+		2034CCEC1E4687A400624588 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCD91E4687A400624588 /* 3.png */; };
+		2034CCED1E4687A400624588 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCDA1E4687A400624588 /* 4.png */; };
+		2034CCEE1E4687A400624588 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCDB1E4687A400624588 /* 5.png */; };
+		2034CCEF1E4687A400624588 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCDC1E4687A400624588 /* 6.png */; };
+		2034CCF01E4687A400624588 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCDD1E4687A400624588 /* 7.png */; };
+		2034CCF11E4687A400624588 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCDE1E4687A400624588 /* 8.png */; };
+		2034CCF21E4687A400624588 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCDF1E4687A400624588 /* 9.png */; };
+		2034CCF31E4687A400624588 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE01E4687A400624588 /* add.png */; };
+		2034CCF41E4687A400624588 /* backpanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE11E4687A400624588 /* backpanel.png */; };
+		2034CCF51E4687A400624588 /* counter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE21E4687A400624588 /* counter.png */; };
+		2034CCF61E4687A400624588 /* divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE31E4687A400624588 /* divide.png */; };
+		2034CCF71E4687A400624588 /* equal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE41E4687A400624588 /* equal.png */; };
+		2034CCF81E4687A400624588 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE51E4687A400624588 /* ground.png */; };
+		2034CCF91E4687A500624588 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE61E4687A400624588 /* multiply.png */; };
+		2034CCFA1E4687A500624588 /* space-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE71E4687A400624588 /* space-bg.png */; };
+		2034CCFB1E4687A500624588 /* subtract.png in Resources */ = {isa = PBXBuildFile; fileRef = 2034CCE81E4687A400624588 /* subtract.png */; };
+		20393C5C1E47CD6B009C1B75 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20393C5B1E47CD6B009C1B75 /* Minecraft.ttf */; };
+		20393C5E1E47DF0C009C1B75 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 20393C5D1E47DF0C009C1B75 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +68,27 @@
 		2034CCC41E46870900624588 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2034CCC81E46870900624588 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		2034CCCA1E46870900624588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2034CCD61E4687A400624588 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		2034CCD71E4687A400624588 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2034CCD81E4687A400624588 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2034CCD91E4687A400624588 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2034CCDA1E4687A400624588 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2034CCDB1E4687A400624588 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2034CCDC1E4687A400624588 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		2034CCDD1E4687A400624588 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		2034CCDE1E4687A400624588 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		2034CCDF1E4687A400624588 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		2034CCE01E4687A400624588 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		2034CCE11E4687A400624588 /* backpanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backpanel.png; sourceTree = "<group>"; };
+		2034CCE21E4687A400624588 /* counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = counter.png; sourceTree = "<group>"; };
+		2034CCE31E4687A400624588 /* divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divide.png; sourceTree = "<group>"; };
+		2034CCE41E4687A400624588 /* equal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equal.png; sourceTree = "<group>"; };
+		2034CCE51E4687A400624588 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		2034CCE61E4687A400624588 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiply.png; sourceTree = "<group>"; };
+		2034CCE71E4687A400624588 /* space-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-bg.png"; sourceTree = "<group>"; };
+		2034CCE81E4687A400624588 /* subtract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtract.png; sourceTree = "<group>"; };
+		20393C5B1E47CD6B009C1B75 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		20393C5D1E47DF0C009C1B75 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +139,31 @@
 		2034CCA71E46870900624588 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				20393C5B1E47CD6B009C1B75 /* Minecraft.ttf */,
+				20393C5D1E47DF0C009C1B75 /* btn.wav */,
 				2034CCA81E46870900624588 /* AppDelegate.swift */,
 				2034CCAA1E46870900624588 /* ViewController.swift */,
 				2034CCAC1E46870900624588 /* Main.storyboard */,
 				2034CCAF1E46870900624588 /* Assets.xcassets */,
+				2034CCD61E4687A400624588 /* 0.png */,
+				2034CCD71E4687A400624588 /* 1.png */,
+				2034CCD81E4687A400624588 /* 2.png */,
+				2034CCD91E4687A400624588 /* 3.png */,
+				2034CCDA1E4687A400624588 /* 4.png */,
+				2034CCDB1E4687A400624588 /* 5.png */,
+				2034CCDC1E4687A400624588 /* 6.png */,
+				2034CCDD1E4687A400624588 /* 7.png */,
+				2034CCDE1E4687A400624588 /* 8.png */,
+				2034CCDF1E4687A400624588 /* 9.png */,
+				2034CCE01E4687A400624588 /* add.png */,
+				2034CCE11E4687A400624588 /* backpanel.png */,
+				2034CCE21E4687A400624588 /* counter.png */,
+				2034CCE31E4687A400624588 /* divide.png */,
+				2034CCE41E4687A400624588 /* equal.png */,
+				2034CCE51E4687A400624588 /* ground.png */,
+				2034CCE61E4687A400624588 /* multiply.png */,
+				2034CCE71E4687A400624588 /* space-bg.png */,
+				2034CCE81E4687A400624588 /* subtract.png */,
 				2034CCB11E46870900624588 /* LaunchScreen.storyboard */,
 				2034CCB41E46870900624588 /* Info.plist */,
 			);
@@ -235,9 +298,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2034CCFA1E4687A500624588 /* space-bg.png in Resources */,
+				2034CCF11E4687A400624588 /* 8.png in Resources */,
+				20393C5C1E47CD6B009C1B75 /* Minecraft.ttf in Resources */,
+				2034CCF01E4687A400624588 /* 7.png in Resources */,
+				2034CCF61E4687A400624588 /* divide.png in Resources */,
+				2034CCEB1E4687A400624588 /* 2.png in Resources */,
+				2034CCE91E4687A400624588 /* 0.png in Resources */,
+				2034CCF21E4687A400624588 /* 9.png in Resources */,
 				2034CCB31E46870900624588 /* LaunchScreen.storyboard in Resources */,
+				2034CCF91E4687A500624588 /* multiply.png in Resources */,
+				2034CCFB1E4687A500624588 /* subtract.png in Resources */,
 				2034CCB01E46870900624588 /* Assets.xcassets in Resources */,
+				2034CCF31E4687A400624588 /* add.png in Resources */,
+				2034CCEF1E4687A400624588 /* 6.png in Resources */,
+				2034CCF81E4687A400624588 /* ground.png in Resources */,
+				20393C5E1E47DF0C009C1B75 /* btn.wav in Resources */,
+				2034CCF41E4687A400624588 /* backpanel.png in Resources */,
+				2034CCED1E4687A400624588 /* 4.png in Resources */,
 				2034CCAE1E46870900624588 /* Main.storyboard in Resources */,
+				2034CCEE1E4687A400624588 /* 5.png in Resources */,
+				2034CCF71E4687A400624588 /* equal.png in Resources */,
+				2034CCEC1E4687A400624588 /* 3.png in Resources */,
+				2034CCF51E4687A400624588 /* counter.png in Resources */,
+				2034CCEA1E4687A400624588 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +598,7 @@
 				2034CCCF1E46870900624588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2034CCD01E46870900624588 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +607,7 @@
 				2034CCD21E46870900624588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2034CCD31E46870900624588 /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +616,7 @@
 				2034CCD51E46870900624588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
