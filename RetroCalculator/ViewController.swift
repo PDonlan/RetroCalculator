@@ -96,10 +96,8 @@ class ViewController: UIViewController {
                     result = "\(Double(leftHandNum)! - Double(rightHandNum)!)"
                 }
                 leftHandNum = result
-                print("result = ", result)
                 outPutLabel.text = result
- //               }
-            
+        
             }
             currentOperation = operation
         } else {
