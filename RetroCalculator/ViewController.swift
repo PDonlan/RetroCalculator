@@ -69,6 +69,7 @@ class ViewController: UIViewController {
     @IBAction func equalPressed(_ sender:UIButton) {
 //        playSound()
         mathOperation(operation: currentOperation)
+        currentOperation = Operation.Empty  //clear the registers whith equal sign
     }
     
     var runningNumber: String = ""
