@@ -47,27 +47,27 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dividePressed(_ sender: UIButton) {
-        playSound()
+//        playSound()
         mathOperation(operation: .Divide)
     }
     
     @IBAction func multiplyPressed(_ sender: UIButton) {
-        playSound()
+//        playSound()
         mathOperation(operation: .Multiply)
     }
     
     @IBAction func subtractPressed(_ sender: UIButton) {
-        playSound()
+//        playSound()
         mathOperation(operation: .Subtract)
     }
     
     @IBAction func addPressed(_ sender: UIButton) {
-        playSound()
+//        playSound()
         mathOperation(operation: .Add)
     }
     
     @IBAction func equalPressed(_ sender:UIButton) {
-        playSound()
+//        playSound()
         mathOperation(operation: currentOperation)
     }
     
@@ -82,6 +82,7 @@ class ViewController: UIViewController {
     var result: String = "0"
 
     func mathOperation(operation: Operation) {
+        playSound()
         if currentOperation != Operation.Empty {
             if runningNumber != "" {
                 rightHandNum = runningNumber
