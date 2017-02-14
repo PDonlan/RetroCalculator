@@ -72,6 +72,12 @@ class ViewController: UIViewController {
         currentOperation = Operation.Empty  //clear the registers whith equal sign
     }
     
+    @IBAction func clearPressed(_ sender:UIButton) {
+        currentOperation = Operation.Empty
+        outPutLabel.text = "Wombat!"
+        runningNumber = ""
+    }
+    
     var runningNumber: String = ""
     @IBAction func onButtonTouch(_ sender: UIButton) {
         playSound()
