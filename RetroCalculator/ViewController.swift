@@ -11,9 +11,20 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+
+    
     @IBOutlet weak var outPutLabel: UILabel!
     var btnSound: AVAudioPlayer!
     
+    enum Operation: String {
+        case Divide = "/"
+        case Multiply = "*"
+        case Subtract = "-"
+        case Add = "+"
+        case Equal = "="
+        case Empty = ""
+    }
+    var currentOperation = Operation.Empty
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,11 +45,68 @@ class ViewController: UIViewController {
         }
         btnSound.play()
     }
+    
+    @IBAction func dividePressed(_ sender: UIButton) {
+        playSound()
+        mathOperation(operation: .Divide)
+    }
+    
+    @IBAction func multiplyPressed(_ sender: UIButton) {
+        playSound()
+        mathOperation(operation: .Multiply)
+    }
+    
+    @IBAction func subtractPressed(_ sender: UIButton) {
+        playSound()
+        mathOperation(operation: .Subtract)
+    }
+    
+    @IBAction func addPressed(_ sender: UIButton) {
+        playSound()
+        mathOperation(operation: .Add)
+    }
+    
+    @IBAction func equalPressed(_ sender:UIButton) {
+        playSound()
+        mathOperation(operation: currentOperation)
+    }
+    
     var runningNumber: String = ""
     @IBAction func onButtonTouch(_ sender: UIButton) {
         playSound()
         runningNumber += "\(sender.tag)"
         outPutLabel.text = runningNumber
+    }
+    var rightHandNum: String = "0"
+    var leftHandNum: String = "0"
+    var result: String = "0"
+
+    func mathOperation(operation: Operation) {
+        if currentOperation != Operation.Empty {
+            if runningNumber != "" {
+                rightHandNum = runningNumber
+                runningNumber = ""
+                if currentOperation == Operation.Divide {
+                    result = "\(Double(leftHandNum)! / Double(rightHandNum)!)"
+                } else if currentOperation == Operation.Multiply {
+                    result = "\(Double(leftHandNum)! * Double(rightHandNum)!)"
+                } else if currentOperation == Operation.Add {
+                    result = "\(Double(leftHandNum)! + Double(rightHandNum)!)"
+                } else if currentOperation == Operation.Subtract {
+                    result = "\(Double(leftHandNum)! - Double(rightHandNum)!)"
+                }
+                leftHandNum = result
+                print("result = ", result)
+                outPutLabel.text = result
+ //               }
+            
+            }
+            currentOperation = operation
+        } else {
+            leftHandNum = runningNumber
+            runningNumber = ""
+            currentOperation = operation
+        }
     }
 
 }
